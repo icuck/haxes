@@ -1,0 +1,102 @@
+#left-column,
+#pass-block {
+	visibility: hidden;
+}
+#start-bottom-left,
+#start-top-left,
+.language-select-wrap,
+.account-details-top-buttons,
+#server-select-main,
+#btn-help,
+#account-login,
+#account-player-name,
+.account-loading-container,
+.account-block-arrow::after,
+#btns-quick-start,
+#start-bottom-middle {
+	display: none !important;
+}
+
+#team-menu {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.menu-block,
+.account-details-block {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#start-overlay {
+	backdrop-filter: blur(50px) brightness(0.4);
+}
+
+.right-column-toggle {
+	right: unset;
+	top: 104px;
+}
+
+.pass-toggle {
+	background-image: url(http://surviv.io/img/gui/close.svg);
+}
+
+#start-menu {
+	height: 323px;
+	display: block;
+	padding-top: 90px;
+}
+
+.menu-option {
+	background-color: #1f1f1f !important;
+	box-shadow: inset 0 -4px black !important;
+	border: none !important;
+	border-radius: 0;
+}
+
+.player-name-input {
+	box-shadow: unset !important;
+	background-color: #ffffff40 !important;
+}
+.player-name-input::placeholder {
+	color: #292929;
+}
+.name.menu-option {
+	background: #ffffff40 !important;
+	box-shadow: none !important;
+}
+.team-menu-option {
+	border-radius: 0;
+}
+
+#btn-customize {
+	background-color: unset !important;
+	box-shadow: unset !important;
+}
+
+#start-row-header {
+	margin-bottom: 0px;
+}
+
+.account-details-block {
+	width: unset;
+	background: #ffffff40;
+}
+.account-details {
+	width: fit-content;
+	padding: 0;
+}
+.account-buttons {
+	padding: 3px;
+	background: #ffffff40;
+}
+
+#btn-start-mode-2 {
+	background-color: #1f1f1f !important;
+	box-shadow: inset 0 -4px black !important;
+	border: none !important;
+	border-radius: 0;
+	animation: none !important;
+	background-image: none !important;
+	text-indent: 0px !important;
+}
